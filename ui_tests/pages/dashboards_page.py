@@ -6,3 +6,4 @@ class DashboardsPage(BasePage):
 
     def title_dashboard_is_visible(self):
         return self.is_visible(general_locators.TITLES.format(value="Дашборды"))
+

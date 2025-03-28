@@ -57,3 +57,4 @@ class ServiceRequests(BasePage):
             self.pause(2)
             self.click(locator=service_requests_locators.REQUIRED_FIELD_CREATE_SERVICE_REQUEST.format(value=field),
                        use_js=True)
+

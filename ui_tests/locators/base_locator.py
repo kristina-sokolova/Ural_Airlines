@@ -27,3 +27,4 @@ class Locator(BaseModel):
         return Locator(by=self.by, value=formatted_value, name=self.name)
 
 
+

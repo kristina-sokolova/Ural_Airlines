@@ -164,3 +164,4 @@ def get_authorization():
         return res.json()
     else:
         print(f"Ошибка: {res.status_code} - {res.text}")
+

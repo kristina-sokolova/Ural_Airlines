@@ -14,3 +14,4 @@ class LoginPage(BasePage):
         self.click("Войти")
         self.pause(25)
 
+
