@@ -7,3 +7,4 @@ RUN poetry install
 
 COPY . .
 ENTRYPOINT ["poetry", "run", "pytest", "--executor", "172.18.0.2"]
+

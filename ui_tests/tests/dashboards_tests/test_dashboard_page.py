@@ -11,3 +11,4 @@ import pytest
 def test_title_dashboard_is_visible(browser, login):
     """Проверяем, что отображено название 'Дашборды'"""
     assert DashboardsPage(browser).title_dashboard_is_visible()
+

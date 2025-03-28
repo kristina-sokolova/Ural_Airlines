@@ -12,3 +12,4 @@ TITLES = Locator(value='//div[text()="{value}"]',
 
 COLLAPSE_MENU = Locator(value='//div[@class="q-focus-helper"]/following::span[@class="v-icon"]',
                         name='Кнопка сворачивания / разворачивания меню')
+

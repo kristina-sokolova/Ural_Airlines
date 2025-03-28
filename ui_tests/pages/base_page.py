@@ -124,3 +124,4 @@ class BasePage:
         self.click(locator=general_locators.COLLAPSE_MENU)
         self.pause(1)
 
+

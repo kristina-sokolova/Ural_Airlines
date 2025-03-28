@@ -25,3 +25,6 @@ class Locator(BaseModel):
     def format(self, *args, **kwargs):
         formatted_value = self.value.format(*args, **kwargs)
         return Locator(by=self.by, value=formatted_value, name=self.name)
+
+
+
