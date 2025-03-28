@@ -1,0 +1,8 @@
+.env
+allure-results/
+allure-report/
+__pycache__
+
+.idea
+
+execution.log

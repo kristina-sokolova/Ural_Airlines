@@ -1,0 +1,2 @@
+class DashboardsPageLocators:
+    pass
